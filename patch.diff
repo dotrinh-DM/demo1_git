@@ -1,0 +1,24 @@
+From d5c0ba5da1ab1a678d5aaae41c5dc4b7140dcc62 Mon Sep 17 00:00:00 2001
+From: Do Trinh <thanhdo.trinh@gmail.com>
+Date: Thu, 2 Sep 2021 20:55:36 +0900
+Subject: [PATCH] pick "cherry1" from "demo_cherry" branch onto "master", ma ko
+ can phai merge toan bo cherry1, cherry2, cherry 3
+
+---
+ NewFile.txt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/NewFile.txt b/NewFile.txt
+index a5b807b..9ad58de 100644
+--- a/NewFile.txt
++++ b/NewFile.txt
+@@ -1 +1,3 @@
+-USE
+\ No newline at end of file
++USE
++------
++cherry1
+\ No newline at end of file
+-- 
+2.23.0
+
